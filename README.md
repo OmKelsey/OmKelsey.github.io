@@ -10,4 +10,24 @@
 
 所有线上图片均经过分辨率优化、元数据清理和署名水印处理。作品版权归牟成露所有，未经许可请勿转载或商用。
 
-线上地址：https://omkelsey.github.io/
+## 技术与交互
+
+- Next.js 16 + React 19 + TypeScript
+- 静态导出与 GitHub Pages 自动部署
+- 项目筛选、作品灯箱、键盘切换、滚动进度与视差动效
+- 响应式排版与 `prefers-reduced-motion` 无障碍适配
+
+## 本地运行
+
+```bash
+npm install
+npm run dev
+```
+
+生产构建：
+
+```bash
+npm run build:pages
+```
+
+线上地址：[omkelsey.github.io](https://omkelsey.github.io/)
